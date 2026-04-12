@@ -44,3 +44,22 @@ It executes test cases in parallel, stores results in MySQL, and provides analyt
 ## 📡 API Endpoints
 
 ### ▶ Run Tests
+## 📡 API Endpoints
+
+### ▶ Run Tests
+POST /api/execution/run
+
+### ▶ Get All Results
+GET /api/execution/results
+
+### ▶ Failures
+GET /api/execution/failures
+
+### ▶ Summary
+GET /api/execution/summary
+
+### ▶ Run-wise Results
+GET /api/execution/run/{runId}
+
+### ▶ Analytics
+GET /api/execution/analytics/summary

@@ -63,3 +63,9 @@ GET /api/execution/run/{runId}
 
 ### ▶ Analytics
 GET /api/execution/analytics/summary
+## ▶ How to Run
+
+1. Start Spring Boot app
+2. Run POST /api/execution/run
+3. Check results API
+4. View MySQL table
